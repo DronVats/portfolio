@@ -1,13 +1,54 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  background-color: #fff !important;
+}
+.menu-active:hover{
+  font-weight: bold;
+  border-bottom: 1px solid purple;
+}
+.get-started{
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.get-started:hover{
+  background-color: blue;
+}
+.btnm{
+  border: 3px solid skyblue !important;
+}
+.blue{
+  color: skyblue;
+}
+
+.sizing{
+  margin-left: 50rem;
+}
+#header{
+  margin-top: 84px;
+}
+.animated{
+  animation: animate 2s ease-in-out infinite alternate-reverse both;
+ 
+}
+@keyframes animate {
+
+  0%{
+    transform: translateY(10px);
+  }
+ 
+  100%{
+    transform: translateY(-10px);
+  }
+  
+  
+}
+.contact_div{
+    padding: 23px;
 }
